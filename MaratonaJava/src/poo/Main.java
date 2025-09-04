@@ -4,29 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("\n -------------------------------------------- \n");
 
-        //Carro carro = new Carro();
-        Carro carro1 = new Carro("BRA789", "Azul");
-        carro1.detalhesCarro("Brasil");
-        carro1.acelerar();
+        Carro carro1 = new Carro("Azul", "ABR43N");
+        carro1.detalhesVeiculo("Carro");
+        carro1.abastecer("Carro", "Gasolina");
+        carro1.acelerar("Carro");
 
-        /*
-        TENTANDO ENTENDER:
-        Chamo a CLASSE Carro crio uma variavel que vai levar um novo(new) Carro (o construtor) que pede varios dados
-         */
+        System.out.println("\n -------------------------------------------- \n");
 
-        Carro carro2 = new Carro("BRA777", "vermelha");
-        carro2.detalhesCarro("Brasil");
-        carro2.abastecer();
+        Moto moto1 = new Moto("Vermelha", "ABR22V");
+        moto1.detalhesVeiculo("Moto");
+        moto1.freiar("Moto");
 
-
-        //carro.setCor("Vermelho");
-        //carro.setPlacaDoCarro("AR43N89");
-
-
-
-        //System.out.println("" + carro.getPlacaDoCarro() + "\n" + carro.getCor());
-
+        System.out.println("\n -------------------------------------------- \n");
     }
 
 
